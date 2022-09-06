@@ -1,0 +1,35 @@
+.welcome{
+    background-color: rgba(209, 127, 226, 0.604);
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+
+.welcome .welcome-card {
+    background: rgba(0, 0, 0, 0.511);
+    color: white;
+    width: 80%;
+    max-width: 550px;
+    height: 250px;
+    padding: 2rem 1rem;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+}
+
+.welcome .welcome-card > button {
+    background-color: var(--twitter-col);
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+    text-transform: inherit;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 20px;
+    width: 180px;
+    margin-left: 20px;
+    cursor: pointer;
+}

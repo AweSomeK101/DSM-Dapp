@@ -1,0 +1,11 @@
+.profile{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.profile .avatarContainer{
+    display: flex;
+    justify-content: center;
+    /* margin: 10px 0; */
+}

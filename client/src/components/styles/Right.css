@@ -1,0 +1,35 @@
+.right{
+    flex: 0.3;
+}
+
+.rightInput{
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-bg);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.rightInput input{
+    border: none;
+    background: var(--twitter-bg);
+}
+
+.rightSearchIcon{
+    color: gray;
+}
+
+.rightContainer{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+
+.rightContainer h2{
+    font-size: 18px;
+    font-weight: 800;
+}
